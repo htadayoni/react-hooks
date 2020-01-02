@@ -4,11 +4,12 @@ import './App.css';
 
 import ClassComponent from './Component/ClassCounter';
 import HookComponent from './Component/HookCounter';
+import HookComponentTwo from './Component/HookCounterTwo';
 
 function App() {
   return (
     <div className="App">
-      <HookComponent />
+      <HookComponentTwo />
     </div>
   );
 }
